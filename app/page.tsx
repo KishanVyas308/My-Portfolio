@@ -1,5 +1,8 @@
+import About from "@/components/About";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import RecentProjects from "@/components/RecentProjects";
+import Skills from "@/components/Skill";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import Image from "next/image";
 import * as React from "react"
@@ -44,7 +47,11 @@ export default function Home() {
           ]
         }/>
         <Hero />
-        <Grid />
+        <Skills />
+        {/* <Grid /> */}
+        <About />
+        <RecentProjects />
+        
       </div>
     </main>
   );
