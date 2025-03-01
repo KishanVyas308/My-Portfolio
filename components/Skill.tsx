@@ -5,7 +5,6 @@ import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import { FaReact, FaNodeJs, FaDocker, FaGitAlt, FaPython, FaHtml5, FaCss3Alt, FaBootstrap, FaGithub, FaGitlab, FaEthereum, FaArrowRight } from 'react-icons/fa';
 import { SiTypescript, SiJavascript, SiTailwindcss, SiNextdotjs, SiExpress, SiMongodb, SiPostgresql, SiRedis, SiAmazon, SiKubernetes, SiFirebase, SiFlutter, SiGraphql, SiNginx, SiCloudflare, SiVercel, SiNetlify, SiSolidity, SiIpfs, SiPostman, SiFigma, SiAdobexd } from 'react-icons/si';
 import { TbBrandPrisma } from "react-icons/tb";
-import ShimmerButton from './ui/ShimmerButton';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
