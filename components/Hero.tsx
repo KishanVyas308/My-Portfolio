@@ -9,7 +9,7 @@ import { HeroHighlight } from './ui/hero-highlight'
 
 const Hero = () => {
     return (
-        <div className='pb-20 pt-36'>
+        <div className='pb-20 h-[90vh]  pt-36'>
 
             {/* <LampContainer> */}
 
@@ -31,7 +31,7 @@ const Hero = () => {
             </div> */}
 
             {/* Black Dot Background */}
-            <div className="h-[50rem] w-full   dark:bg-dot-white/[0.18] bg-dot-black/[0.2] flex items-center justify-center absolute top-0 left-0">
+            <div className="h-[90vh] w-full   dark:bg-dot-white/[0.18] bg-dot-black/[0.2] flex items-center justify-center absolute top-0 left-0">
 
                 <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
             </div>
@@ -41,7 +41,7 @@ const Hero = () => {
             <div className='fex justify-center relative my-20 z-20'>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
 
-                    <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 '>
+                    <h2 className='uppercase  tracking-widest text-xs text-center text-blue-100 max-w-80 '>
                         Building Scalable, Secure & Intelligent Digital Experiences
                     </h2>
                     <TextGenerateEffect
@@ -50,8 +50,9 @@ const Hero = () => {
                         duration={.6}
                         words='Turning Complex Ideas into Scalable Digital Realities'
                     />
-                    <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hi, I'm Kishan – A Full-Stack & Blockchain Developer Passionate About Innovation, Web3, and AI-powered Solutions.
+                    <p className='text-center md:tracking-wider mb-12 mt-6 text-sm md:text-lg lg:text-2xl'>
+                        Hi, I'm <span className='text-purple font-bold'> Kishan Vyas
+                            </span>  – A Full-Stack & Blockchain Developer Passionate About Innovation, Web3, and AI-powered Solutions.
                     </p>
                     <a href="#about" className='mt-4'>
                         <ShimmerButton

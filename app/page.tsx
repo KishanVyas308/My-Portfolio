@@ -1,10 +1,8 @@
 import About from "@/components/About";
-import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import Skills from "@/components/Skill";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import Image from "next/image";
 import * as React from "react"
 import { FaHome, FaInfoCircle, FaProjectDiagram, FaAddressBook } from "react-icons/fa";
 // import { Moon, Sun } from "lucide-react"
@@ -47,9 +45,9 @@ export default function Home() {
           ]
         }/>
         <Hero />
+        <About />
         <Skills />
         {/* <Grid /> */}
-        <About />
         <RecentProjects />
         
       </div>
